@@ -22,6 +22,7 @@ Crie o arquivo book_app/settings.ini da seguinte forma:
 SECRET_KEY=<chave com 54 caracteres s/ exceção>
 ALLOWED_HOSTS=localhost, 127.0.0.1, <ip do host>
 DEBUG=<True ou False>
+CORS_ORIGIN_WHITELIST=<lista de hosts que podem consumir esta api>
 ```
  
 ###_Execução_
